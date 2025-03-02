@@ -1,0 +1,71 @@
+.chat-history-container {
+    width: 25%;
+    padding: 15px;
+    background: #f8f9fa;
+    border-right: 1px solid #ddd;
+    position: relative;
+  }
+  
+  .chat-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .settings-icon {
+    cursor: pointer;
+    font-size: 20px;
+  }
+  
+  .settings-menu {
+    position: absolute;
+    top: 40px;
+    right: 10px;
+    background: white;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  .settings-menu button {
+    display: block;
+    width: 100%;
+    padding: 5px;
+    border: none;
+    background: none;
+    text-align: left;
+    cursor: pointer;
+  }
+  
+  .chat-list {
+    overflow-y: auto;
+    max-height: 400px;
+  }
+  
+  .chat-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    background: white;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    position: relative;
+  }
+  
+  .chat-item:hover .delete-icon {
+    display: block;
+  }
+  
+  .delete-icon {
+    display: none;
+    cursor: pointer;
+    font-size: 16px;
+    color: red;
+    position: absolute;
+    right: 10px;
+  }
+  

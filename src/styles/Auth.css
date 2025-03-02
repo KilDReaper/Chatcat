@@ -1,0 +1,84 @@
+.auth-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #fafafa;
+  }
+  
+  .auth-box {
+    background: #fff;
+    padding: 20px;
+    width: 350px;
+    text-align: center;
+    border: 1px solid #dbdbdb;
+    border-radius: 8px;
+    margin-bottom: 10px;
+  }
+  
+  .logo {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  form input {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    border: 1px solid #dbdbdb;
+    border-radius: 5px;
+    background-color: #fafafa;
+  }
+  
+  form input:focus {
+    outline: none;
+    border-color: #a8a8a8;
+  }
+  
+  button {
+    width: 100%;
+    padding: 10px;
+    background-color: #0095f6;
+    color: #fff;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  button:hover {
+    background-color: #0077d4;
+  }
+  
+  .forgot {
+    color: #00376b;
+    font-size: 12px;
+    margin-top: 10px;
+    cursor: pointer;
+  }
+  
+  .signup-box,
+  .login-box {
+    padding: 15px;
+    font-size: 14px;
+    background: #fff;
+    border: 1px solid #dbdbdb;
+    border-radius: 8px;
+  }
+  
+  .signup-box span,
+  .login-box span {
+    color: #0095f6;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  .signup-box span:hover,
+  .login-box span:hover {
+    text-decoration: underline;
+  }
+  
