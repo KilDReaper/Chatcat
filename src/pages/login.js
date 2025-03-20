@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import axios from "axios";
-import { useNavigate } from "react-router-dom";
+import { useNavigate, Link } from "react-router-dom";
 import "../styles/Auth.css";
 
 const Login = () => {
@@ -49,10 +49,15 @@ const Login = () => {
           />
           <button type="submit">Log in</button>
         </form>
-        <p className="forgot">Forgot password?</p>
+        <p className="forgot">
+          <Link to="/forgot-password">Forgot password?</Link>
+        </p>
       </div>
       <div className="auth-box signup-box">
-        <p>Don't have an account? <span onClick={() => navigate("/register")}>Sign up</span></p>
+        <p>
+          Don't have an account?{" "}
+          <span onClick={() => navigate("/register")}>Sign up</span>
+        </p>
       </div>
     </div>
   );
